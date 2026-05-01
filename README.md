@@ -2,6 +2,8 @@
 
 A Linux-first CLI tool for **safe, lossless MP4 concatenation** with automatic validation and fallback.
 
+---
+
 ## Features
 
 - Uses `ffprobe` to inspect all input files
@@ -16,7 +18,7 @@ A Linux-first CLI tool for **safe, lossless MP4 concatenation** with automatic v
 
 ## Requirements
 
-- Fedora / Linux
+- Linux (tested on Fedora)
 - `ffmpeg` + `ffprobe`
 
 Install:
@@ -25,7 +27,6 @@ Install:
 sudo dnf install ffmpeg
 Usage
 chmod +x concat_tool.py
-
 ./concat_tool.py output.mp4 input1.mp4 input2.mp4 input3.mp4
 Output Example
 === STREAM INFO ===
