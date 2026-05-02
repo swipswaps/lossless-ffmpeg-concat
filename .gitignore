@@ -1,2 +1,6 @@
 __pycache__/
 files.txt
+*.norm.mp4
+*.ts
+files.txt
+__pycache__/
